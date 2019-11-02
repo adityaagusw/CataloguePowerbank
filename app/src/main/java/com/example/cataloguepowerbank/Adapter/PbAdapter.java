@@ -46,7 +46,7 @@ public class PbAdapter extends RecyclerView.Adapter<PbAdapter.MyViewHolder> {
                 .into(holder.image);
 
         //anim
-        holder.cv.setAnimation(AnimationUtils.loadAnimation(holder.itemView.getContext(), R.anim.fade_transition_animation));
+//        holder.cv.setAnimation(AnimationUtils.loadAnimation(holder.itemView.getContext(), R.anim.fade_transition_animation));
 
         holder.name.setText(powerBankVariabel.getName());
         holder.description.setText(powerBankVariabel.getDescription());
@@ -80,7 +80,7 @@ public class PbAdapter extends RecyclerView.Adapter<PbAdapter.MyViewHolder> {
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
 
-            cv = itemView.findViewById(R.id.cardView);
+//            cv = itemView.findViewById(R.id.cardView);
             image = itemView.findViewById(R.id.img_item_foto);
             name = itemView.findViewById(R.id.tv_item_nama);
             description = itemView.findViewById(R.id.tv_item_deskripsi);
